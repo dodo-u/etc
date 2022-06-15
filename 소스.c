@@ -4,7 +4,7 @@
 
 int plusone(int a);
 int equal(int a, int b);
-int greater_than(int a, int b);		/*a°¡ Å©¸é retrun true, b°¡ Å©¸é return false    */
+int greater_than(int a, int b);		/*aê°€ í¬ë©´ retrun true, bê°€ í¬ë©´ return false    */
 int not(int a);
 int abs(int a);
 int mul(int a, int b);
@@ -24,10 +24,10 @@ int main() {
 	while (1) {
 		char ope;
 		int a, b;
-		printf("¼ıÀÚ 2°³ ÀÔ·Â : ");
+		printf("ìˆ«ì 2ê°œ ì…ë ¥ : ");
 		scanf_s("%d %d", &a, &b);
 		getchar();
-		printf("¿¬»ê ÀÔ·Â[+,-,*,/] : ");
+		printf("ì—°ì‚° ì…ë ¥[+,-,*,/] : ");
 		scanf_s("%c", &ope);	
 
 		
@@ -68,10 +68,10 @@ int main() {
 			else printf("answer : m%d\n\n", multiple(abs(a), abs(b)));
 		}
 		else if (equal(ope, (int)47)) {
-			printf("answer : ¸òÀº %d  ³ª¸ÓÁö´Â %d\n\n", mok(a, b), namege(a,b));
+			printf("answer : ëª«ì€ %d  ë‚˜ë¨¸ì§€ëŠ” %d\n\n", mok(a, b), namege(a,b));
 		}
 		else {
-			printf("Àß¸øµÈ ¿¬»êÀÚ ÀÔ´Ï´Ù\n\n");
+			printf("ì˜ëª»ëœ ì—°ì‚°ì ì…ë‹ˆë‹¤\n\n");
 		}
 	}
 
